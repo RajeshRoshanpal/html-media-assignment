@@ -1,0 +1,35 @@
+1. Primitive Data types in java are
+     :-int,double,float,boolean,short,long,char,byte
+2. Identifiers in java are characters .
+   which are class ,variable,method,package, interface.
+3. final class is a class which is declared with the finl keyword.
+4  The 1st method is by using the 'final' keyword
+   like 
+    final public class FinalClass {
+
+    } 
+   the 2nd method is by making all constructors private
+   like
+   public class FinalClass {
+   -------
+     private FinalClass() {
+
+     }
+   }
+
+5. yes we can create an instance of final class in another class.
+6. The volatile keyword prevents the compiler from performing optimization on code involving volatile objects, thus ensuring that each volatile variable assignment and read has a
+   corresponding memory access.
+7. use of tangent keyword is used to return the trigonometric tangent of an angle. 
+8. In Java there are two types of casting 
+   : Widening Casting
+   : Narrowing Casting
+9. Placing a primitive variable in an object is known as boxing. This allows the primitive to be used where objects are required.
+   For this purpose Java provides wrapper classes for each primitive variable.
+   Converting an object of a wrapper type (Integer) to its corresponding primitive (int) value is called unboxing. The Java compiler applies unboxing when an object of a wrapper class is
+   : Passed as a parameter to a method that expects a value of the corresponding primitive type.
+10. Keywords are the reserved words that have a pre defined meaning for the compiler and hence are restricted to be used as identifiers.
+
+    Identifiers are the name assigned to different programming constructs like classes, interfaces, methods , variables etc.
+
+    Literals are the values that are assigned to Identifiers.
